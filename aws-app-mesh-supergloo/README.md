@@ -89,7 +89,7 @@ Behind the scenes, these routing declarations will create the necessary AWS App 
 
 To see the full example in action, take a look at this video:
 
-![App Mesh Demo video here](https://img.youtube.com/vi/GJevzWHqx84/0.jpg)](https://www.youtube.com/watch?v=GJevzWHqx84)
+[![App Mesh Demo video here](https://img.youtube.com/vi/GJevzWHqx84/0.jpg)](https://www.youtube.com/watch?v=GJevzWHqx84)
 
 
 
