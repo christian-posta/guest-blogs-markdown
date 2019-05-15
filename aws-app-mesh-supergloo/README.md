@@ -87,9 +87,9 @@ supergloo-system.bookinfo-appmesh-reviews-9080 \
 ```
 Behind the scenes, these routing declarations will create the necessary AWS App Mesh `VirtualNode`, `VirtualService`, and `VirtualRouter` configurations so you can focus on driving the service mesh to do what you need. SuperGloo keeps the same abstractions for any of the other mesh technologies it supports. 
 
-To see a full example, take a look at this video:
+To see the full example in action, take a look at this video:
 
-https://www.youtube.com/watch?v=GJevzWHqx84&t=3s
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GJevzWHqx84" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Wrap up
