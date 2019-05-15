@@ -15,6 +15,8 @@ As a user of AWS App Mesh, you have to create and apply the correct VirtualNode/
 
 [SuperGloo](https://supergloo.solo.io) is a tool to lower the complexity and cognitive load when adopting and managing service-mesh technologies. At it's heart, SuperGloo leverages a simplified and unifying API that abstracts specific service-mesh implementations and layers a consistent set of management capabilities like traffic routing, integrating with other components in your organization and even federating multiple meshes and making them appear as one. SuperGloo can manage multiple clusters of service mesh regardless of the implementation and regardless of what cloud on which they run. 
 
+![](./images/architecture.png)
+
 SuperGloo can be used to improve the experience around AWS App Mesh. For example, to create a new AppMesh, we can run the `supergloo register appmesh -i` command which will start an interactive prompt to complete your service-mesh registration. If we pass `--auto-inject true` we can also get automatic sidecar proxy (Envoy) injection into the namespaces we specify. The auto-injector  which will automatically create the `VirtualNode` resources for us as well. 
 
 Once we register our mesh, we should see a `Mesh` resource that documents the capabilities of this particular service mesh. This is particularly useful information to have when managing multiple meshes or discovering meshes that already exist. 
